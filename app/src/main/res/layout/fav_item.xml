@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_ti"
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:layout_marginStart="20sp"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="10sp"
+    android:layout_marginEnd="20sp"
+    android:background="@drawable/item_rad"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fav_tiker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginBottom="36sp"
+        android:layout_toStartOf="@id/fav_icon"
+        android:text="@string/string_tiker"
+        android:textColor="@android:color/black"
+        android:textSize="4mm"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fav_icon"
+        tools:ignore="InOrMmUsage" />
+
+    <TextView
+        android:id="@+id/fav_fullName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginBottom="8sp"
+        android:text="@string/string_name_inc"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/fav_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fav_icon" />
+
+    <ImageView
+        android:id="@+id/fav_icon"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="10sp"
+        android:background="@drawable/image_corners"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/fav_b_favorite"
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginBottom="38sp"
+        android:background="@drawable/ic_favourite_is_true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fav_tiker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">btm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_tiker">TKR</string>
+    <string name="todo">TODO</string>
+    <string name="string_name_inc">Name Inc</string>
+    <string name="list_is_clear">Вы еще ничего не добавили</string>
+    <string name="favourite">Избранное</string>
+    <string name="tx_day">DAY</string>
+    <string name="tx_month">MONTH</string>
+    <string name="tx_year">YEAR</string>
+    <string name="not_news">Новостей еще не было</string>
+    <string name="wait_loading">Подождите, загрузка...</string>
+    <string name="no_con_news">Нет подключения к сети</string>
+
+    <string-array name="catsTitles">
+        <item>Васька</item>
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Рыжик</item>
+    </string-array>
+    <string-array name="catDescriptions">
+        <item>Васька слушает да ест</item>
+        <item>Барсик хочет в Барселону</item>
+        <item>Мурзик выписал Мурзилку</item>
+        <item>Рыжик рычит на рыбок</item>
+    </string-array>
+</resources>
